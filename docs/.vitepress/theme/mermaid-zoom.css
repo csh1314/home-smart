@@ -1,0 +1,28 @@
+.mermaid {
+  transition: box-shadow 0.2s;
+  border-radius: 8px;
+}
+
+.mermaid:hover {
+  box-shadow: 0 0 0 2px var(--vp-c-brand-1);
+}
+
+.mermaid-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.85);
+  cursor: zoom-out;
+  padding: 20px;
+}
+
+.mermaid-overlay.active {
+  display: flex;
+}
+
+.mermaid-overlay svg {
+  filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.1));
+}
