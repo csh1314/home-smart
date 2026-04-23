@@ -3,3 +3,4 @@ docs/.vitepress/dist/
 docs/.vitepress/cache/
 .superpowers/
 home.jpg
+package-lock.json
