@@ -39,6 +39,7 @@ export default withMermaid(defineConfig({
           { text: '开关类型详解', link: '/07-switch-types' },
           { text: '调试验收', link: '/08-debugging' },
           { text: 'Home Assistant 入门', link: '/10-home-assistant' },
+          { text: 'HA 落地全流程', link: '/11-ha-deployment' },
           { text: '美的美居接入米家', link: '/09-midea-to-mijia' },
         ],
       },
