@@ -60,6 +60,10 @@ graph TD
 
 ## 三、路线一：Home Assistant + midea_ac_lan（推荐）
 
+::: tip 没接触过 Home Assistant？
+先看 [10-Home Assistant 入门](./10-home-assistant.md) 搞懂它是什么、怎么用，再回来看下面的接入步骤。
+:::
+
 这是社区最成熟的方案。`midea_ac_lan` 支持空调、风管机、洗碗机、洗衣机、热水器等几乎全线美的白电。
 
 ### 各设备支持情况
